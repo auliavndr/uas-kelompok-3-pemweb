@@ -1,0 +1,160 @@
+header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 5rem;
+  right: 5rem;
+  z-index: 9999;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.jumbotron {
+  margin-top: 8rem;
+}
+
+/* Home section */
+.home {
+  margin-top: 8rem;
+  max-width: fit-content;
+}
+
+#carouselExampleIndicators {
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-inner {
+  height: 500px;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.fullscreen-carousel {
+  height: 100vh;
+  border-radius: 0;
+}
+
+.fullscreen-carousel .carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* Contact section */
+.contact {
+  margin-top: 8rem;
+}
+
+.container-contact {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contact-item i {
+  font-size: 24px;
+  color: #1a237e;
+  margin-right: 15px;
+}
+
+.contact-item p {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* About section */
+.about {
+  margin: 7rem 5rem;
+}
+
+/* Team section */
+.team {
+  margin-top: 8rem;
+}
+
+.team-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.team-member h5 {
+  margin-bottom: 5px;
+}
+
+/* Product section */
+.row {
+  margin: 5rem 5rem;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.row .card img {
+  padding: 1rem;
+}
+
+.row .card-text {
+  text-align: justify;
+}
+
+/* Service section */
+.box {
+  margin-right: -1rem;
+  margin-left: -1rem;
+  margin-bottom: 5rem;
+}
+
+.box h3 {
+  margin-top: 1rem;
+}
+
+/* Interactive section / Media queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 758px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}

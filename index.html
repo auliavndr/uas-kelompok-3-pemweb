@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>DaejoBook</title>
+
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <div class="container">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4">Daejobook</span>
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              data-bs-toggle="dropdown"
+              aria-expanded="true"
+              >About</a
+            >
+            <ul class="dropdown-menu" data-bs-popper="static">
+              <li><a class="dropdown-item" href="about.html">About Us</a></li>
+              <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="service.html" class="nav-link">Service</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Product</a>
+          </li>
+        </ul>
+      </header>
+    </div>
+    <!-- Navbar end -->
+
+    <!-- Home start -->
+    <div class="home">
+      <div id="carouselExampleIndicators" class="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="foto/a.png" class="d-block w-100" alt="#" />
+          </div>
+          <div class="carousel-item">
+            <img src="foto/b.png" class="d-block w-100" alt="#" />
+          </div>
+          <div class="carousel-item">
+            <img src="foto/c.png" class="d-block w-100" alt="#" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container-fluid about pt-5 pb-5">
+        <div class="container">
+          <h2 class="display-3 text-center" id="tentang">
+            Welcome to DaejoBook
+          </h2>
+          <p class="text-center">
+            "Dari Naskah ke Rak, Membawa Kisah ke Dunia"
+          </p>
+          <br /><br />
+          <div class="clearfix" pt-5>
+            <img
+              src="foto/d.jpg"
+              class="col-md-6 float-md-end mb-3"
+              width="300"
+              height="300"
+            /><br /><br /><br />
+            <p>
+              Daejobook adalah perusahaan penerbitan dan distribusi buku yang
+              berkomitmen untuk memperkaya wawasan dan imajinasi pembaca di
+              seluruh Indonesia. Didirikan dengan semangat untuk menyebarkan
+              pengetahuan dan budaya literasi, Daejobook menghadirkan berbagai
+              karya berkualitas dari penulis lokal maupun internasional.
+            </p>
+            <a class="btn btn-primary" href="about.html" role="button"
+              >Learn More</a
+            >
+            <a class="btn btn-primary" href="service.html" role="button"
+              >Our Service</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Home end -->
+
+    <!-- Footer start -->
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+            aria-label="Bootstrap"
+          >
+            <svg class="bi" width="30" height="24" aria-hidden="true">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >© 2025 PT Daejobook</span
+          >
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a
+              href="https://www.instagram.com/daejobook?igsh=MTNsbmgzeHZjeGFmZQ=="
+              target="_blank"
+              ><i data-feather="instagram"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a
+              href="https://x.com/mumuchan97?t=sZJsehWQzLfs4UTYobhMbA&s=08"
+              target="_blank"
+              ><i data-feather="twitter"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <!-- Footer end -->
+
+    <!-- Icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Font -->
+    <script
+      src="https://kit.fontawesome.com/0c3d3fcf0b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
